@@ -104,7 +104,7 @@ save_visualization("sample_test", image, pred)
 
 ## References
 
-- 📘 [Kaggle Competition Page](https://www.kaggle.com/competitions/airbus-ship-detection)
+- [Kaggle Competition Page](https://www.kaggle.com/competitions/airbus-ship-detection)
 
 
 ## Author
