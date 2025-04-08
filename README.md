@@ -56,13 +56,13 @@ Each model was trained on a processed version of the dataset using TFRecords for
 
 ```bash
 airbus-ship-detection-cnn/
-├── data/                  # Raw and processed data (not uploaded here)
-├── models/                # Trained models
-├── notebooks/             # Jupyter notebooks for exploration and training
-├── submission/            # Final submission CSVs
-├── utils/                 # Helper functions (preprocessing, RLE, etc.)
-├── README.md              # This file
-└── requirements.txt       # All required packages (TensorFlow, OpenCV, etc.)
+├── data/                          # Raw and processed data (not uploaded here)
+├── models/                        # Trained models
+├── notebooks/                     # Jupyter notebooks for exploration and training
+├── submission/                    # Final submission CSVs
+├── README.md                      # This file
+├── CSC480_Project_Proposal.pdf    # Project Proposal file
+└── requirements.txt               # All required packages (TensorFlow, OpenCV, etc.)
 ```
 
 ## Results & Highlights
