@@ -3,10 +3,10 @@
 
 This repository presents a full deep learning pipeline for the [Airbus Ship Detection Challenge](https://www.kaggle.com/competitions/airbus-ship-detection), hosted on Kaggle. The goal is to accurately detect ships in satellite imagery using modern CNN-based segmentation architectures.
 
-> **Project Author:** Sherali Ozodov  
-> **Instructor:** Jason Pacheco  
-> **Course:** CSC 480 – Principles of Machine Learning  
-> **University of Arizona**
+**Project Author:** Sherali Ozodov  
+**Instructor:** Jason Pacheco  
+**Course:** CSC 480 – Principles of Machine Learning  
+**University of Arizona**
 
 ## Project Summary
 
