@@ -1,0 +1,9 @@
+streamlit
+tensorflow>=2.10
+opencv-python-headless
+numpy
+pandas
+scikit-image
+albumentations
+tqdm
+matplotlib

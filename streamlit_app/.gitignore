@@ -1,0 +1,26 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env
+.venv
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Output files
+*.tfrecord
+*.keras
+*.h5
+submission*.csv
+predictions/
+
+# IDE directories
+.vscode/
+.idea/
+
+.DS_Store
