@@ -67,14 +67,19 @@ airbus-ship-detection-cnn/
 
 ## Results & Highlights
 
-| Model           | Val Dice | Val IoU  | LB Public | LB Private |
-|----------------|----------|----------|-----------|------------|
-| ResUNet        | ~0.64    | ~0.50    | 0.517     | 0.755 ✅   |
-| U-Net++        | ~0.66    | ~0.52    | 0.477     | 0.715      |
-| Attention U-Net| ~0.63    | ~0.49    | 0.505     | 0.728      |
+Below is a summary of validation performance and official Kaggle leaderboard scores for the three architectures evaluated, along with the final ensemble submission:
 
-**ResUNet++** performed best on the **private leaderboard**, which is the official metric for the competition ranking.
+| Model            | Val Dice | Val IoU | LB Public | LB Private |
+|------------------|----------|---------|-----------|------------|
+| ResUNet          | ~0.64    | ~0.50   | 0.517     | 0.755 ✅    |
+| U-Net++          | ~0.66    | ~0.52   | 0.477     | 0.715      |
+| Attention U-Net  | ~0.63    | ~0.49   | 0.505     | 0.728      |
+| **Ensemble (Weighted)** | —        | —       | **0.51299** | **0.75679 🏆** |
 
+- ✅ **ResUNet** performed best among individual models on the private leaderboard.
+- **U-Net++** had strong validation metrics but did not generalize as well to the leaderboard.
+- **Attention U-Net** showed stable performance across both public and private scores.
+- 🏆 The **ensemble model**, using weighted predictions (50% ResUNet, 30% Attention U-Net, 20% U-Net++), **achieved the highest private score**, making it the most reliable for final submission.
 
 ## Dependencies
 
