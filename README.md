@@ -59,6 +59,7 @@ airbus-ship-detection-cnn/
 ├── data/                          # Raw and processed data (not uploaded here)
 ├── models/                        # Trained models
 ├── notebooks/                     # Jupyter notebooks for exploration and training
+├── streamlit_app/                 # Streanlit app code for real-time inference
 ├── submission/                    # Final submission CSVs
 ├── README.md                      # This file
 ├── CSC480_Project_Proposal.pdf    # Project Proposal file
